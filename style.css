@@ -1,0 +1,114 @@
+/* General Body Style */
+body {
+        font-family: 'Arial', sans-serif; /* Use a clean sans-serif font */
+        background-color: #e8dada; /* Light gray background */
+        margin: 0;
+        padding: 0;
+        color: #333333; /* Darker text for better readability */
+        background-image: url('background.jpg');
+        background-size: cover; /* Ensures the image covers the whole screen */
+        background-repeat: no-repeat; /* Prevents the image from repeating */
+        background-position: center; /* Centers the image */
+        background-attachment: fixed; /* Fixes the image while scrolling */
+    
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    background-color: #f7f8d3; /* Muted Indigo for a professional header */
+    color: white;
+    padding: 30px;
+    font-size: 1.5em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Main Container Layout */
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-gap: 20px; /* Increase gap for cleaner spacing */
+    padding: 20px;
+}
+
+/* Sidebar Styles */
+.sidebar-left {
+    background-color: #90CAF9; /* Soft Blue */
+    color: #212121; /* Dark Text for readability */
+    padding: 15px;
+    border-radius: 10px; /* Soft rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Soft shadow for depth */
+}
+
+.sidebar-right {
+    background-color: #FFF59D; /* Soft Yellow */
+    color: #212121; /* Dark Text */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Content Section */
+.content {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Clean shadow effect */
+    border: none;
+    line-height: 1.6;
+}
+
+/* Image in Content Section */
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Add shadow to the image */
+}
+
+/* Footer Section */
+footer {
+    text-align: center;
+    background-color: #455A64; /* Muted Gray/Blue */
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 0.9em;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Zebra-striped table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table tr:nth-child(even) {
+    background-color: #E0E0E0; /* Light Gray for stripes */
+}
+
+table tr:nth-child(odd) {
+    background-color: white; /* Ensure alternate rows stay clean */
+}
+
+table td, table th {
+    padding: 12px;
+    text-align: left;
+}
+
+/* Hover link style */
+a:hover {
+    color: #da1414; /* Light blue hover effect */
+}
+
+/* Highlight Georgia State */
+span {
+    color: #FF5722; /* Accent color (muted orange) */
+    font-weight: bold;
+}
+
+.text-Color {
+    color: #ff6347; /* Use your desired color, e.g., tomato */
+}
